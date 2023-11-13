@@ -7,7 +7,7 @@
 
 import Foundation
 
-extension URL {
+public extension URL {
 
     static func davinci(version: Int = 1) -> URL {
         URL(string: "https://api.openai.com/v\(version)/engines/davinci/completions")!

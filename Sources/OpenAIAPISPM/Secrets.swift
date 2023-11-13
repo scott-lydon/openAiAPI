@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Secrets {
+public struct Secrets {
     /// Assign me first.
-    static var openAIKey = ""
+    public static var openAIKey = ""
 }

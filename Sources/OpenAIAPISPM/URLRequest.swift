@@ -8,7 +8,7 @@
 import Foundation
 
 // URLRequest extension to create an OpenAI API request
-extension URLRequest {
+public extension URLRequest {
 
 
     /// Basic gpt 3.5 builder.
