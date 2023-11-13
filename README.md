@@ -1,2 +1,3 @@
-# openAiAPI
-Swift package for openAi 
+# OpenAIAPISPM
+
+A description of this package.
