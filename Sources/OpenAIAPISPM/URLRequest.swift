@@ -113,6 +113,7 @@ public extension URLRequest {
         httpMethod: String = "POST",
         apiKey: String = Secrets.openAIKey
     ) -> Self {
+        Secrets.assertHasKey()
         var request = URLRequest(url: url)
         request.httpMethod = httpMethod
         request.setValue("Bearer \(apiKey)", forHTTPHeaderField: "Authorization")
